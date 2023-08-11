@@ -5,8 +5,8 @@ function toggleMode() {
   html.classList.toggle("light")
 
   if (html.classList.contains('light')) {
-    img.setAttribute("src", "./assets/avatar.png")
+    img.setAttribute("src", "./assets/avatarDark.jpeg")
   } else {
-    img.setAttribute("src", "./assets/avatar.png")
+    img.setAttribute("src", "./assets/avatarLight.jpeg")
   }
 }
